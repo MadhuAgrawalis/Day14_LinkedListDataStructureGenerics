@@ -15,15 +15,15 @@ namespace LinkedList
             //number.Add(30);
            // number.Add(70);
 
-            UC2_LinkedList number = new UC2_LinkedList();
-            number.AddFirst(56);
-            number.AddFirst(30);
-            number.AddFirst(70);
+            //UC2_LinkedList number = new UC2_LinkedList();
+            //number.AddFirst(56);
+            //number.AddFirst(30);
+            //number.AddFirst(70);
 
-            //UC3_LinkedList number = new UC3_LinkedList();
-            //number.AddLast(56);
-            //number.AddLast(30);
-            //number.AddLast(70);
+            UC3_LinkedList number = new UC3_LinkedList();
+            number.AddLast(56);
+            number.AddLast(30);
+            number.AddLast(70);
 
             //UC4_LinkedList number = new UC4_LinkedList();
             ////LinkedList<int> list = new LinkedList<int>();
