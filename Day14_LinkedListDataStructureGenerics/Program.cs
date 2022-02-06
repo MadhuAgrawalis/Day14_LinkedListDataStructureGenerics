@@ -8,43 +8,45 @@ namespace LinkedList
 {
     class Program
     {
-        static void Main(string[] args, LinkedList<int> LinkedList, LinkedListNode<int> _)
+        private static object number;
+
+        private static void Main(string[] args, LinkedList<int> LinkedList, LinkedListNode<int> _)
         {
-           //UC1_LinkedList number = new UC1_LinkedList();
+            //UC1_LinkedList number = new UC1_LinkedList();
             //number.Add(56);
             //number.Add(30);
-           // number.Add(70);
+            // number.Add(70);
 
             //UC2_LinkedList number = new UC2_LinkedList();
             //number.AddFirst(56);
             //number.AddFirst(30);
             //number.AddFirst(70);
 
-           //UC3_LinkedList number = new UC3_LinkedList();
+            //UC3_LinkedList number = new UC3_LinkedList();
             //number.AddLast(56);
             //number.AddLast(30);
             //number.AddLast(70);
 
-            UC4_LinkedList number = new UC4_LinkedList();
-            LinkedList<int> LinkdList = new LinkedList<int>();
-            number.AddFirst(1);
-            number.AddAfter(0,20);
+            //UC4_LinkedList number = new UC4_LinkedList();
+            //LinkedList<int> LinkdList = new LinkedList<int>();
+            //number.AddFirst(1);
+            //number.AddAfter(0,20);
 
-            //number.AddLast(56);
-            //number.AddLast(30);
-            //number.AddLast(70);
-            //number.AddAfter(2, 40);
+            //object p = number.AddLast(56);
+             // number.AddLast(30);
+            // number.AddLast(70);
+           // number.AddAfter(2, 40);
             //int a = number.Length();
-            //Console.WriteLine(a);
+           // Console.WriteLine(a);
 
-            //UC5_LinkedList number = new UC5_LinkedList();
-            //number.AddLast(56);
-            //number.AddLast(30);
-            //number.AddLast(70);
-            //number.AddAfter(2, 40);
-            //int a = number.Length();
-            //Console.WriteLine(a);
-            //number.Pop();
+            UC5_LinkedList number = new UC5_LinkedList();
+            number.AddLast(56);
+            number.AddLast(30);
+            number.AddLast(70);
+            number.AddAfter(2, 40);
+            int a = number.Length();
+            Console.WriteLine(a);
+            number.Pop();
 
             //UC6_LinkedList number = new UC6_LinkedList();
             //number.AddLast(56);

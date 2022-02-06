@@ -3,11 +3,11 @@
     internal class Node
     {
         internal object next;
-        private int data;
+        private int next;
 
         public Node(int data)
         {
-            this.data = data;
+            this.next = data;
         }
     }
 }
