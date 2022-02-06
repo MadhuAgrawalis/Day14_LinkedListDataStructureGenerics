@@ -8,7 +8,7 @@ namespace LinkedList
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main(string[] args, LinkedList<int> LinkedList, LinkedListNode<int> _)
         {
            //UC1_LinkedList number = new UC1_LinkedList();
             //number.Add(56);
@@ -20,15 +20,15 @@ namespace LinkedList
             //number.AddFirst(30);
             //number.AddFirst(70);
 
-            UC3_LinkedList number = new UC3_LinkedList();
-            number.AddLast(56);
-            number.AddLast(30);
-            number.AddLast(70);
+           //UC3_LinkedList number = new UC3_LinkedList();
+            //number.AddLast(56);
+            //number.AddLast(30);
+            //number.AddLast(70);
 
-            //UC4_LinkedList number = new UC4_LinkedList();
-            ////LinkedList<int> list = new LinkedList<int>();
-            ////list.AddFirst(1);
-            ////list.AddAfter(0,20);
+            UC4_LinkedList number = new UC4_LinkedList();
+            LinkedList<int> LinkdList = new LinkedList<int>();
+            number.AddFirst(1);
+            number.AddAfter(0,20);
 
             //number.AddLast(56);
             //number.AddLast(30);
