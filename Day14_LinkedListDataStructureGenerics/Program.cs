@@ -10,15 +10,15 @@ namespace LinkedList
     {
         static void Main(string[] args)
         {
-            UC1_LinkedList number = new UC1_LinkedList();
-            number.Add(56);
-            number.Add(30);
-            number.Add(70);
+           //UC1_LinkedList number = new UC1_LinkedList();
+            //number.Add(56);
+            //number.Add(30);
+           // number.Add(70);
 
-            //UC2_LinkedList number = new UC2_LinkedList();
-            //number.AddFirst(56);
-            //number.AddFirst(30);
-            //number.AddFirst(70);
+            UC2_LinkedList number = new UC2_LinkedList();
+            number.AddFirst(56);
+            number.AddFirst(30);
+            number.AddFirst(70);
 
             //UC3_LinkedList number = new UC3_LinkedList();
             //number.AddLast(56);
