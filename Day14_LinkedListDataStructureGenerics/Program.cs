@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 
 namespace LinkedList
 {
@@ -48,22 +44,22 @@ namespace LinkedList
             //Console.WriteLine(a);
             //number.Pop();
 
-            UC6_LinkedList number = new UC6_LinkedList();
-            number.AddLast(56);
-            number.AddLast(30);
-            number.AddLast(70);
-            number.AddAfter(2, 40);
-            int a = number.Length();
-            Console.WriteLine(a);
-            number.Pop();
-            number.PopLast();
-
-            //UC7_LinkedList number = new UC7_LinkedList();
+           // UC6_LinkedList number = new UC6_LinkedList();
             //number.AddLast(56);
             //number.AddLast(30);
             //number.AddLast(70);
             //number.AddAfter(2, 40);
-            //number.Find(30);
+            //int a = number.Length();
+            //Console.WriteLine(a);
+            //number.Pop();
+            //number.PopLast();
+
+            UC7 number = new UC7();
+            number.AddLast(56);
+            number.AddLast(30);
+            number.AddLast(70);
+            number.AddAfter(2, 40);
+            number.Find(30);
 
             //UC8_LinkedList number = new UC8_LinkedList();
             //number.AddLast(56);

@@ -1,4 +1,6 @@
-﻿namespace LinkedList
+﻿using System;
+
+namespace LinkedList
 {
     internal class Node
     {
@@ -9,6 +11,11 @@
         public Node(int data)
         {
             (Node)            this.next = data;
+        }
+
+        public static explicit operator Node(bool v)
+        {
+            throw new NotImplementedException();
         }
     }
 }
