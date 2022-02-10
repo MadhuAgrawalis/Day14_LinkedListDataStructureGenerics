@@ -54,18 +54,18 @@ namespace LinkedList
             //number.Pop();
             //number.PopLast();
 
-            UC7 number = new UC7();
-            number.AddLast(56);
-            number.AddLast(30);
-            number.AddLast(70);
-            number.AddAfter(2, 40);
-            number.Find(30);
-
-            //UC8_LinkedList number = new UC8_LinkedList();
+            //UC7 number = new UC7();
             //number.AddLast(56);
             //number.AddLast(30);
             //number.AddLast(70);
-            //number.InsertAfter(30, 40);
+            //number.AddAfter(2, 40);
+            //number.Find(30);
+
+            UC8_LinkedList number = new UC8_LinkedList();
+            number.AddLast(56);
+            number.AddLast(30);
+            number.AddLast(70);
+            number.InsertAfter(30, 40);
 
             //UC9_LinkedList number = new UC9_LinkedList();
             //number.AddLast(56);
