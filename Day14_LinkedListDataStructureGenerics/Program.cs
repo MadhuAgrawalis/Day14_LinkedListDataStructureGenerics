@@ -39,7 +39,16 @@ namespace LinkedList
             //int a = number.Length();
            // Console.WriteLine(a);
 
-            UC5_LinkedList number = new UC5_LinkedList();
+           // UC5_LinkedList number = new UC5_LinkedList();
+           // number.AddLast(56);
+           // number.AddLast(30);
+            //number.AddLast(70);
+            //number.AddAfter(2, 40);
+            //int a = number.Length();
+            //Console.WriteLine(a);
+            //number.Pop();
+
+            UC6_LinkedList number = new UC6_LinkedList();
             number.AddLast(56);
             number.AddLast(30);
             number.AddLast(70);
@@ -47,16 +56,7 @@ namespace LinkedList
             int a = number.Length();
             Console.WriteLine(a);
             number.Pop();
-
-            //UC6_LinkedList number = new UC6_LinkedList();
-            //number.AddLast(56);
-            //number.AddLast(30);
-            //number.AddLast(70);
-            //number.AddAfter(2, 40);
-            //int a = number.Length();
-            //Console.WriteLine(a);
-            //number.Pop();
-            //number.PopLast();
+            number.PopLast();
 
             //UC7_LinkedList number = new UC7_LinkedList();
             //number.AddLast(56);

@@ -3,11 +3,12 @@
     internal class Node
     {
         internal object next;
-        private int next;
+        internal bool data;
+        private readonly int next;
 
         public Node(int data)
         {
-            this.next = data;
+            (Node)            this.next = data;
         }
     }
 }
