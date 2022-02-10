@@ -61,18 +61,18 @@ namespace LinkedList
             //number.AddAfter(2, 40);
             //number.Find(30);
 
-            UC8_LinkedList number = new UC8_LinkedList();
-            number.AddLast(56);
-            number.AddLast(30);
-            number.AddLast(70);
-            number.InsertAfter(30, 40);
-
-            //UC9_LinkedList number = new UC9_LinkedList();
+            //UC8_LinkedList number = new UC8_LinkedList();
             //number.AddLast(56);
             //number.AddLast(30);
             //number.AddLast(70);
             //number.InsertAfter(30, 40);
-            //number.remove(70);
+
+            UC9_LinkedList number = new UC9_LinkedList();
+            number.AddLast(56);
+            number.AddLast(30);
+            number.AddLast(70);
+            number.InsertAfter(30, 40);
+            number.remove(70);
 
         }
     }
